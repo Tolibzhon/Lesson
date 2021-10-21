@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  task6();
+  task2();
 }
 
 //задача1

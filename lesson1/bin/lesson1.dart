@@ -32,10 +32,10 @@ void main(List<String> arguments) {
   //   ++i;
   // }
 
-  // int i = 1;
-  // do {
-  //   print("HEllo");
-  //   ++i;
-  // } while (i <= 5);
-  // print("St");
+  int i = 1;
+  do {
+    print("HEllo");
+    ++i;
+  } while (i <= 5);
+  print("St");
 }
