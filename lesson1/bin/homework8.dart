@@ -2,7 +2,7 @@ void main() {
   func(10);
   print(sum(10, 6));
   resault(10, 4, 2);
-  array([1, 2, 3, 4, 5, 5]);
+  print(array([1, 2, 3, 4, 5, 5]));
 }
 
 //задание 1
@@ -27,18 +27,13 @@ double resault(int a, int b, int c) {
 }
 
 //задание4
-void array(List<int> a) {
-  String otv;
-  bool s;
+array(List<int> a) {
+  String otvet;
 
   for (var i = 0; i < a.length; i++) {
-    if (a[i] == a[i++]) {
-      s = true;
-    } else
-      s = false;
+    if (a[i] == a[i - 1]) {
+      return otvet = "Da";
+    }
   }
-  if (s = true) {
-    print("ДА");
-  } else
-    print("Нет");
+  return otvet = "Net";
 }
